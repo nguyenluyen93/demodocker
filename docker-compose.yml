@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  nginx-keycloak-demo:
+    image: nginx:alpine
+    container_name: nginx-keycloak-demo
+    restart: unless-stopped
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf/
+    ports:
+      - "8080:8080"
+
+  keycloak:
+     image: quay.io/keycloak/keycloak:latest
+     environment:
+
+      DB_VERNDOR: postgres
+      KEYCLOAK_USER: ${KEYCLOAK_USER}
+      KEYCLOAK_PASSWORD: ${KEYCLOAK_PASSWORD}
+      DB_USER: ${KEYCLOAK_DB_USER}
+      DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD}
+      DB_ADDR: ${KEYCLOAK_DB_HOST}
+      DB_PORT: ${KEYCLOAK_DB_PORT}
+      PROXY_ADDRESS_FORWARDING: ${PROXY_ADDRESS_FORWARDING}
+      KEYCLOAK_USER: ${KEYCLOAK_USER}
+
+     depends_on:
+       - keycloak-db-demo
+     ports:
+       - 8181:8080 
+        
+
+  keycloak-db-demo:
+    container_name: keycloak-db-demo
+    image: postgres:10-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: keycloakdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
