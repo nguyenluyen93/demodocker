@@ -1,0 +1,86 @@
+repo_name: nguyenluyen93/demodocker
+report_id: f0e057964c72d90488051de20c4f5b34
+repo_type: Public
+timestamp: '2023-12-05T06:51:11+00:00'
+requested_by: nguyenluyen93
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Heroku Postgres
+  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
+    database, PostgreSQL
+  website_url: https://www.heroku.com/postgres
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: PostgreSQL as a Service
+  image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source: docker-compose.yml
+  last_updated_by: Nguyễn Hữu Luyện - TCIS
+  last_updated_on: 2020-11-24 02:17:32.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: docker-compose.yml
+  last_updated_by: Nguyễn Hữu Luyện - TCIS
+  last_updated_on: 2020-11-24 02:17:32.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source: docker-compose.yml
+  last_updated_by: Nguyễn Hữu Luyện - TCIS
+  last_updated_on: 2020-11-24 02:17:32.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source: docker-compose.yml
+  last_updated_by: Nguyễn Hữu Luyện - TCIS
+  last_updated_on: 2020-11-24 02:17:32.000000000 Z
+- name: Keycloak
+  description: An open source identity and access management solution
+  website_url: https://www.keycloak.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/5439/oAC05cEB_400x400.png
+  detection_source: docker-compose.yml
+  last_updated_by: Nguyễn Hữu Luyện - TCIS
+  last_updated_on: 2020-11-24 02:17:32.000000000 Z
