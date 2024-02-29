@@ -3,12 +3,12 @@
 ## Tech Stack
 nguyenluyen93/demodocker is built on the following main stack:
 
-- [PostgreSQL](http://www.postgresql.org/) – Databases
-- [NGINX](http://nginx.org) – Web Servers
 - [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
-- [Keycloak](https://www.keycloak.org/) – User Management and Authentication
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [PostgreSQL](http://www.postgresql.org/) – Databases
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [NGINX](http://nginx.org) – Web Servers
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Keycloak](https://www.keycloak.org/) – User Management and Authentication
 
 Full tech stack [here](/techstack.md)
 
@@ -18,12 +18,12 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 nguyenluyen93/demodocker is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'/> [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/5439/oAC05cEB_400x400.png' alt='Keycloak'/> [Keycloak](https://www.keycloak.org/) – User Management and Authentication
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/5439/oAC05cEB_400x400.png' alt='Keycloak'/> [Keycloak](https://www.keycloak.org/) – User Management and Authentication
 
 Full tech stack [here](/techstack.md)
 
@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nguyenluyen93/demodocker](https://github.com/nguyenluyen93/demodocker)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|7<br/>Tools used|01/05/24 <br/>Report generated|
+|7<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
